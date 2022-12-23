@@ -1,7 +1,5 @@
 ## 1.0.0 (2022-12-23)
 
-* chore: change extension of commitlint.config.js ([40d0388](https://github.com/NeftXx/adventjs-retos/commit/40d0388))
-* chore: conventional commit configuration ([3b67488](https://github.com/NeftXx/adventjs-retos/commit/3b67488))
 * feat: Add solution challenge 01 ([f777bdf](https://github.com/NeftXx/adventjs-retos/commit/f777bdf))
 * feat: Add solution challenge 02 ([ae0a74d](https://github.com/NeftXx/adventjs-retos/commit/ae0a74d))
 * feat: Add solution challenge 03 ([3c57a62](https://github.com/NeftXx/adventjs-retos/commit/3c57a62))
@@ -30,6 +28,11 @@
 * feat: Add solution challenge 24 ([417baca](https://github.com/NeftXx/adventjs-retos/commit/417baca))
 * feat: Add solution challenge 25 ([e657d0b](https://github.com/NeftXx/adventjs-retos/commit/e657d0b))
 * feat: Init challenges ([77e00e9](https://github.com/NeftXx/adventjs-retos/commit/77e00e9))
+* feat: solution of challenge 1 ([6a33886](https://github.com/NeftXx/adventjs-retos/commit/6a33886))
+* refactor: adventJS challenge changes ([c5aa0f0](https://github.com/NeftXx/adventjs-retos/commit/c5aa0f0))
+* chore: add CHANGELOG.md ([7e3b33b](https://github.com/NeftXx/adventjs-retos/commit/7e3b33b))
+* chore: change extension of commitlint.config.js ([40d0388](https://github.com/NeftXx/adventjs-retos/commit/40d0388))
+* chore: conventional commit configuration ([3b67488](https://github.com/NeftXx/adventjs-retos/commit/3b67488))
 * Update: Add new examples for challenge 23 ([2937c92](https://github.com/NeftXx/adventjs-retos/commit/2937c92))
 
 
