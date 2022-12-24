@@ -5,6 +5,17 @@
  */
 export function getGiftsToRefill(a1, a2, a3) {
 	const gifts = [...new Set([...a1, ...a2, ...a3])];
-	const giftsToRefill = gifts.filter((gift) => a1.includes(gift) + a2.includes(gift) + a3.includes(gift) === 1);
+	const includeInStore = (gift, store) => Number(store.includes(gift));
+	const getNumberOfStores = (gift) => {
+		return (
+			includeInStore(gift, a1) +
+			includeInStore(gift, a2) +
+			includeInStore(gift, a3)
+		);
+	};
+
+	const isInOnlyStore = (gift) => getNumberOfStores(gift) === 1;
+
+	const giftsToRefill = gifts.filter(isInOnlyStore);
 	return giftsToRefill;
 }
